@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous" />
+
+    <title>UAS Program Penggajian</title>
+  </head>
+  <body>
+    <nav class="navbar-light bg-light sticky-top">
+      <div class="container-fluid" align="center">
+        <a class="navbar-brand" href="Penjualan Barang.html"><h3>Program Penggajian PT. Satu Malam Dua Cinta</h3></a>
+      </div>
+    </nav>
+    <div class="p-3 mb-2 bg-danger text-light" .bg-info align="center">
+      <hr />
+      <table>
+        <tr>
+          <td><label>Nama Pegawai :</label></td>
+          <td><input type="text" id="nama" /><br /></td>
+        </tr>
+        <tr>
+          <td><label>Jam Kerja :</label></td>
+          <td><input type="text" id="jam" /><br /></td>
+        </tr>
+        <tr>
+          <td><label>Upah per Jam :</label></td>
+          <td><input type="text" id="uph" /><br /></td>
+        </tr>
+        <tr>
+          <td><label>Anak :</label></td>
+          <td><input type="text" id="anak" /><br /></td>
+        </tr>
+        <tr>
+          <td><label>Gaji :</label></td>
+          <td><textarea id="Gaji"></textarea><br /></td>
+        </tr>
+        <tr>
+          <td><label>Tunj.anak 10% (maks 2 anak):</label></td>
+          <td><textarea id="tunj"></textarea><br /></td>
+        </tr>
+        <tr>
+          <td><label>Total Gaji :</label></td>
+          <td><textarea id="total"></textarea><br /></td>
+        </tr>
+      </table>
+      <hr />
+      <br />
+
+      <button onclick="hasil()">Proses</button>
+      <button onclick="hapus()">Reset</button>
+
+      <script type="text/javascript" src="penggajian.js"></script>
+      <hr />
+      <h5>Made by @Jonawawiwawi</h5>
+    </div>
+  </body>
+</html>
